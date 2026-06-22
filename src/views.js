@@ -86,13 +86,13 @@ function compileHomeView() {
     <!-- Brand Introduction -->
     <section class="section-padding container home-about-section">
       <div class="home-about-visual">
-        <img src="/src/assets/about_facility.jpg" alt="Phoenix Facility Floor">
+        <img src="/assets/about_facility.jpg" alt="Phoenix Facility Floor">
       </div>
       <div>
-        <h4 style="text-transform: uppercase; font-family: var(--font-sans); letter-spacing: 0.1em; color: var(--salon-primary); margin-bottom: 0.8rem; font-weight: 600;">The Brand Foundation</h4>
+        <h4 style="text-transform: uppercase; font-family: var(--font-sans); letter-spacing: 0.15em; color: var(--salon-primary); margin-bottom: 0.8rem; font-weight: 600;">The Brand Foundation</h4>
         <h2 style="font-size: 2.8rem; margin-bottom: 1.5rem; font-family: var(--font-serif);">Where Luxury Salon Floor Meets Accredited Education</h2>
         <p style="font-size: 1.05rem; opacity: 0.8; margin-bottom: 1.5rem; line-height: 1.7;">
-          Phoenix was born from a simple vision: beauty services should be personal, luxurious, and healthy, while the education to create those services must be rigorous, modern, and practical. Founded by celebrity stylist Elena Rostova, Phoenix serves as a high-end salon for discerning clients and a state-of-the-art academy for the next generation of cosmetologists.
+          Phoenix was born from a simple vision: beauty services should be personal, luxurious, and healthy, while the education to create those services must be rigorous, modern, and practical. Founded by professional makeup artist and educator Ruhi Khan, Phoenix serves as a high-end salon for discerning clients and a state-of-the-art academy for the next generation of cosmetologists.
         </p>
         <p style="font-size: 1.05rem; opacity: 0.8; margin-bottom: 2rem; line-height: 1.7;">
           Our students train on a live, high-traffic salon floor, working alongside master stylists to bridge the gap between classroom theory and elite salon service.
@@ -166,28 +166,28 @@ function compileHomeView() {
 
       <div class="instagram-grid">
         <div class="instagram-post-card">
-          <img src="/src/assets/lookbook_balayage_after.jpg" alt="Hair transformation">
+          <img src="/assets/lookbook_balayage_after.jpg" alt="Hair transformation">
           <div class="instagram-overlay">
             <i class="fa-brands fa-instagram"></i>
             <span>342 Likes</span>
           </div>
         </div>
         <div class="instagram-post-card">
-          <img src="/src/assets/lookbook_bridal_after.jpg" alt="Bridal glam shot">
+          <img src="/assets/lookbook_bridal_after.jpg" alt="Bridal glam shot">
           <div class="instagram-overlay">
             <i class="fa-brands fa-instagram"></i>
             <span>412 Likes</span>
           </div>
         </div>
         <div class="instagram-post-card">
-          <img src="/src/assets/hero_academy.jpg" alt="Students training">
+          <img src="/assets/hero_academy.jpg" alt="Students training">
           <div class="instagram-overlay">
             <i class="fa-brands fa-instagram"></i>
             <span>289 Likes</span>
           </div>
         </div>
         <div class="instagram-post-card">
-          <img src="/src/assets/about_facility.jpg" alt="Salon styling floor">
+          <img src="/assets/about_facility.jpg" alt="Salon styling floor">
           <div class="instagram-overlay">
             <i class="fa-brands fa-instagram"></i>
             <span>356 Likes</span>
@@ -213,12 +213,12 @@ function compileAboutView() {
     <section class="section-padding container">
       <div class="about-grid-content">
         <div class="about-photo-wrapper">
-          <img src="/src/assets/hero_salon.jpg" alt="Founder Elena Rostova">
+          <img src="/assets/hero_salon.jpg" alt="Founder Ruhi Khan">
         </div>
         <div class="about-text">
           <h2>The Journey of Phoenix</h2>
           <p>
-            Phoenix was founded in 2018 by Elena Rostova, a world-renowned session stylist and educator. After working on high-fashion editorials in Milan and coaching salon owners globally, Elena noticed a recurring issue: many newly graduated beauty school students lacked the hands-on confidence, client communications, and modern styling techniques required in luxury salon environments.
+            Phoenix was founded in 2018 by Ruhi Khan, a world-renowned professional makeup artist and educator. After working on high-fashion editorials and coaching salon owners globally, Ruhi noticed a recurring issue: many newly graduated beauty school students lacked the hands-on confidence, client communications, and modern styling techniques required in luxury salon environments.
           </p>
           <p>
             Her response was to launch Phoenix Salon & Training Academy, a hybrid workspace where high-end cosmetology education takes place directly next to, and integrated with, a premium, high-traffic commercial salon floor.
@@ -279,7 +279,7 @@ function compileAboutView() {
           </p>
         </div>
         <div class="about-photo-wrapper">
-          <img src="/src/assets/about_facility.jpg" alt="Phoenix Academy Classrooms">
+          <img src="/assets/about_facility.jpg" alt="Phoenix Academy Classrooms">
         </div>
       </div>
     </section>
@@ -671,7 +671,7 @@ function compileCourseDetailView(courseId) {
           <h3 class="course-detail-section-title">Program Instructors</h3>
           <div style="display:flex; gap: 2rem; align-items:center; background-color: var(--academy-muted); padding: 2rem; border-radius: var(--border-radius-sm); border: 1px solid rgba(255,255,255,0.05);">
             <div style="width: 80px; height: 80px; border-radius: 50%; overflow:hidden; border: 2px solid var(--academy-primary);">
-              <img src="/src/assets/stylist_elena.jpg" alt="Instructor" style="width:100%; height:100%; object-fit:cover;">
+              <img src="/assets/stylist_ruhi.png" alt="Instructor" style="width:100%; height:100%; object-fit:cover;">
             </div>
             <div>
               <h4 style="font-family: var(--font-sans); font-size: 1.25rem; font-weight: 600; color: white;">Lead Mentor: ${course.instructor}</h4>

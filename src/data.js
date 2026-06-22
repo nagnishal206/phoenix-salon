@@ -161,13 +161,13 @@ export const salonServices = [
 
 export const stylists = [
   {
-    id: "stylist-elena",
-    name: "Elena Rostova",
-    tier: "Founder & Creative Director",
-    bio: "With over 15 years of international styling experience in Milan and Paris, Elena established Phoenix to redefine luxury beauty and student training.",
-    specialties: ["Couture Cuts", "Bridal Airbrush", "Business Mentorship"],
-    image: "/src/assets/stylist_elena.jpg",
-    instagram: "@elena_phoenix_styling"
+    id: "stylist-ruhi",
+    name: "Ruhi Khan",
+    tier: "Founder & Master Makeup Artist",
+    bio: "Ruhi Khan is a professional makeup artist (MUA) and educator. She established Phoenix to bring elite beauty services and world-class training to Anantapur.",
+    specialties: ["Bridal Makeup", "Cosmetology", "Academy Mentorship"],
+    image: "/assets/stylist_ruhi.png",
+    instagram: "@phoenix_womens_salon_atp"
   },
   {
     id: "stylist-mariah",
@@ -175,7 +175,7 @@ export const stylists = [
     tier: "Master Colorist",
     bio: "Mariah is our resident balayage and color correction guru. She is certified in advanced French painting techniques and hair health preservation.",
     specialties: ["Signature Balayage", "Vivid Colors", "Color Corrections"],
-    image: "/src/assets/stylist_mariah.jpg",
+    image: "/assets/stylist_mariah.jpg",
     instagram: "@mariah_color_vance"
   },
   {
@@ -184,7 +184,7 @@ export const stylists = [
     tier: "Senior Esthetician & Skin Specialist",
     bio: "Tara holds a degree in clinical cosmetology and is passionate about solving skin concerns through modern tech and holistic care.",
     specialties: ["Hydro-Dermabrasion", "Anti-Aging Peels", "Lymphatic Facial Massage"],
-    image: "/src/assets/stylist_tara.jpg",
+    image: "/assets/stylist_tara.jpg",
     instagram: "@tara_skin_phoenix"
   },
   {
@@ -193,7 +193,7 @@ export const stylists = [
     tier: "Junior Stylist",
     bio: "A graduate of the Phoenix Academy, Sasha has a fresh eye for contemporary styling, vintage blowouts, and braiding styles.",
     specialties: ["Modern Blowouts", "Express Braids", "Scalp Treatments"],
-    image: "/src/assets/stylist_sasha.jpg",
+    image: "/assets/stylist_sasha.jpg",
     instagram: "@sasha_styling"
   }
 ];
@@ -204,40 +204,40 @@ export const lookbookItems = [
     category: "Balayage",
     title: "Caramel Sun-kissed Balayage",
     description: "Multi-tonal brown-to-gold hand painted highlights.",
-    beforeImage: "/src/assets/lookbook_balayage_before.jpg",
-    afterImage: "/src/assets/lookbook_balayage_after.jpg"
+    beforeImage: "/assets/lookbook_balayage_before.jpg",
+    afterImage: "/assets/lookbook_balayage_after.jpg"
   },
   {
     id: "lookbook-2",
     category: "Bridal Makeup",
     title: "Classic Royalty Bridal Look",
     description: "HD airbrush look with subtle rose gold shimmer and glossy lips.",
-    beforeImage: "/src/assets/lookbook_bridal_before.jpg",
-    afterImage: "/src/assets/lookbook_bridal_after.jpg"
+    beforeImage: "/assets/lookbook_bridal_before.jpg",
+    afterImage: "/assets/lookbook_bridal_after.jpg"
   },
   {
     id: "lookbook-3",
     category: "Styling",
     title: "Glamorous Hollywood Waves",
     description: "Voluminous, structured retro waves styled on thick, long locks.",
-    beforeImage: "/src/assets/lookbook_styling_before.jpg",
-    afterImage: "/src/assets/lookbook_styling_after.jpg"
+    beforeImage: "/assets/lookbook_styling_before.jpg",
+    afterImage: "/assets/lookbook_styling_after.jpg"
   },
   {
     id: "lookbook-4",
     category: "Skin Care",
     title: "Aura Hydro-Facial Result",
     description: "Noticeable reduction in redness, deep hydration boost, and visible glow.",
-    beforeImage: "/src/assets/lookbook_skin_before.jpg",
-    afterImage: "/src/assets/lookbook_skin_after.jpg"
+    beforeImage: "/assets/lookbook_skin_before.jpg",
+    afterImage: "/assets/lookbook_skin_after.jpg"
   },
   {
     id: "lookbook-5",
     category: "Academy Work",
     title: "Avant-Garde Styling (Student Work)",
     description: "High-fashion editorial hair art styled by our senior diploma students.",
-    beforeImage: "/src/assets/lookbook_academy_before.jpg",
-    afterImage: "/src/assets/lookbook_academy_after.jpg"
+    beforeImage: "/assets/lookbook_academy_before.jpg",
+    afterImage: "/assets/lookbook_academy_after.jpg"
   }
 ];
 
@@ -250,7 +250,7 @@ export const academyCourses = [
     shortDescription: "Our flagship, intensive program designed to build a complete salon professional from scratch. Accredited worldwide.",
     tuition: "₹3,60,000",
     financing: "Installment plans available (₹60,000/month for 6 months)",
-    instructor: "Elena Rostova & Guest Lecturers",
+    instructor: "Ruhi Khan & Guest Lecturers",
     prerequisites: "High School Diploma or equivalent. Passion for beauty.",
     syllabusPdf: "phoenix-cosmetology-diploma-syllabus.pdf",
     curriculum: [
@@ -284,7 +284,7 @@ export const academyCourses = [
     shortDescription: "A specialized masterclass teaching HD, airbrush, and traditional bridal makeup routines for diverse skin types.",
     tuition: "₹96,000",
     financing: "Split payment (50% booking deposit, 50% on start date)",
-    instructor: "Elena Rostova",
+    instructor: "Ruhi Khan",
     prerequisites: "Basic makeup experience (recommended).",
     syllabusPdf: "phoenix-bridal-makeup-masterclass.pdf",
     curriculum: [

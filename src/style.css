@@ -554,7 +554,7 @@ body.theme-academy .dropdown-menu {
 
 /* Salon Side Hero */
 .hero-salon-side::before {
-  background-image: url('/src/assets/hero_salon.jpg');
+  background-image: url('/assets/hero_salon.jpg');
 }
 
 .hero-salon-side::after {
@@ -563,7 +563,7 @@ body.theme-academy .dropdown-menu {
 
 /* Academy Side Hero */
 .hero-academy-side::before {
-  background-image: url('/src/assets/hero_academy.jpg');
+  background-image: url('/assets/hero_academy.jpg');
 }
 
 .hero-academy-side::after {
