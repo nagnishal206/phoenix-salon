@@ -366,7 +366,7 @@ function compileContactView() {
           <!-- Styled Maps Widget -->
           <div class="map-wrapper-large">
             <iframe 
-              src="https://maps.google.com/maps?q=Anantapur,%20Andhra%20Pradesh%20515004&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=Phoenix%20womens%20salon%20and%20training%20center,%20Anantapur,%20Andhra%20Pradesh&t=&z=16&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style="border:0;" 
