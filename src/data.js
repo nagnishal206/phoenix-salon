@@ -5,21 +5,21 @@ export const salonServices = [
       {
         id: "hair-cut-signature",
         name: "Signature Cut & Style",
-        price: "$85",
+        price: "₹6,800",
         duration: "60 mins",
         description: "Personalized shampoo, scalp massage, custom haircut, and signature blowout tailored to your face shape."
       },
       {
         id: "hair-blowout",
         name: "Luxury Blowout & Style",
-        price: "$50",
+        price: "₹4,000",
         duration: "45 mins",
         description: "Intense shampoo, conditioning treatment, and professional round-brush styling for maximum volume and shine."
       },
       {
         id: "hair-deep-conditioning",
         name: "Keratin Intensive Treatment",
-        price: "$120",
+        price: "₹9,600",
         duration: "90 mins",
         description: "Restorative deep hydration and keratin protein sealing for dry, damaged, or frizzy hair."
       }
@@ -31,21 +31,21 @@ export const salonServices = [
       {
         id: "color-balayage",
         name: "Phoenix Signature Balayage",
-        price: "$220",
+        price: "₹17,600",
         duration: "180 mins",
         description: "Hand-painted, natural-looking sun-kissed highlights with custom toner and deep bond-building treatment."
       },
       {
         id: "color-full-highlight",
         name: "Full Dimensional Highlights",
-        price: "$180",
+        price: "₹14,400",
         duration: "150 mins",
         description: "Traditional foil work across the entire head for high-contrast multi-tonal brightness."
       },
       {
         id: "color-root-touchup",
         name: "Root Retouch & Gloss",
-        price: "$95",
+        price: "₹7,600",
         duration: "75 mins",
         description: "Gray coverage or base color touch-up combined with a premium glossing treatment for ultimate shine."
       }
@@ -57,21 +57,21 @@ export const salonServices = [
       {
         id: "skin-glow-facial",
         name: "Glow & Radiance Facial",
-        price: "$110",
+        price: "₹8,800",
         duration: "60 mins",
         description: "Double cleanse, enzymatic exfoliation, vitamin-rich mask, and facial massage for instant luminosity."
       },
       {
         id: "skin-hydrafacial",
         name: "Advanced Hydro-Dermabrasion",
-        price: "$160",
+        price: "₹12,800",
         duration: "75 mins",
         description: "Deep pore extraction, exfoliation, and serum infusion using advanced vortex-suction technology."
       },
       {
         id: "skin-chemical-peel",
         name: "Phoenix Renewal Peel",
-        price: "$130",
+        price: "₹10,400",
         duration: "45 mins",
         description: "Gentle chemical resurfacing to target fine lines, hyperpigmentation, and acne scars with minimal downtime."
       }
@@ -83,23 +83,77 @@ export const salonServices = [
       {
         id: "bridal-makeup-trial",
         name: "Bridal Makeup & Hair Consultation",
-        price: "$150",
+        price: "₹12,000",
         duration: "120 mins",
         description: "Interactive session to design, test, and perfect your custom bridal look before the big day."
       },
       {
         id: "bridal-makeup-day",
         name: "Ultimate Wedding Day Bridal Package",
-        price: "$350",
+        price: "₹28,000",
         duration: "150 mins",
         description: "Premium HD airbrush makeup, secure bridal hair setting, veil placement, and long-wear skin prep."
       },
       {
         id: "bridal-bridesmaids",
         name: "Bridesmaid Glam (Hair & Makeup)",
-        price: "$180",
+        price: "₹14,400",
         duration: "90 mins",
         description: "Elegant party makeup and styling coordinated to complement the bride's aesthetic."
+      }
+    ]
+  },
+  {
+    category: "Blood Preserved ♥️ Items",
+    items: [
+      {
+        id: "blood-bangles",
+        name: "Bangles (2)",
+        price: "₹1,399",
+        duration: "10-15 days",
+        description: "Custom blood-preserved resin bangles. Handcrafted keepsakes. + delivery charges."
+      },
+      {
+        id: "blood-pendants",
+        name: "Pendants",
+        price: "₹599",
+        duration: "10-15 days",
+        description: "Beautiful custom blood-preserved pendant. + delivery charges."
+      },
+      {
+        id: "blood-keychains",
+        name: "Keychains",
+        price: "₹999",
+        duration: "10-15 days",
+        description: "Unique custom blood-preserved keychain. + delivery charges."
+      },
+      {
+        id: "blood-rings",
+        name: "Rings",
+        price: "₹399",
+        duration: "10-15 days",
+        description: "Custom blood-preserved ring. + delivery charges."
+      },
+      {
+        id: "blood-silverring",
+        name: "Silver Ring",
+        price: "₹3,799",
+        duration: "10-15 days",
+        description: "Premium sterling silver ring with blood-preserved resin setting. + shipping."
+      },
+      {
+        id: "blood-resinframe",
+        name: "Resin Frame",
+        price: "Starts ₹1,499",
+        duration: "10-15 days",
+        description: "Custom resin frame featuring blood-preserved elements. + shipping."
+      },
+      {
+        id: "blood-woodenframe",
+        name: "Wooden Frame",
+        price: "₹2,500",
+        duration: "10-15 days",
+        description: "Premium custom wooden frame with blood-preserved resin. + shipping. (10 to 15 days for processing). Note: No COD available."
       }
     ]
   }
@@ -194,8 +248,8 @@ export const academyCourses = [
     level: "Advanced",
     duration: "6 Months",
     shortDescription: "Our flagship, intensive program designed to build a complete salon professional from scratch. Accredited worldwide.",
-    tuition: "$4,500",
-    financing: "Installment plans available ($750/month for 6 months)",
+    tuition: "₹3,60,000",
+    financing: "Installment plans available (₹60,000/month for 6 months)",
     instructor: "Elena Rostova & Guest Lecturers",
     prerequisites: "High School Diploma or equivalent. Passion for beauty.",
     syllabusPdf: "phoenix-cosmetology-diploma-syllabus.pdf",
@@ -228,7 +282,7 @@ export const academyCourses = [
     level: "Intermediate",
     duration: "4 Weeks",
     shortDescription: "A specialized masterclass teaching HD, airbrush, and traditional bridal makeup routines for diverse skin types.",
-    tuition: "$1,200",
+    tuition: "₹96,000",
     financing: "Split payment (50% booking deposit, 50% on start date)",
     instructor: "Elena Rostova",
     prerequisites: "Basic makeup experience (recommended).",
@@ -254,7 +308,7 @@ export const academyCourses = [
     level: "Advanced",
     duration: "2 Days (Weekend Intensive)",
     shortDescription: "Master hand-painted balayage, foliage, baby-lights, and gloss formulations in this intensive hands-on lab.",
-    tuition: "$550",
+    tuition: "₹44,000",
     financing: "Single payment required on booking.",
     instructor: "Mariah Vance",
     prerequisites: "Licensed cosmetologist or enrolled student.",
@@ -276,8 +330,8 @@ export const academyCourses = [
     level: "Beginner",
     duration: "8 Weeks",
     shortDescription: "Learn skin anatomy, facial treatments, clean extraction, and machine esthetics. Great starting point for future estheticians.",
-    tuition: "$1,800",
-    financing: "Installment plan available ($900/month for 2 months)",
+    tuition: "₹1,44,000",
+    financing: "Installment plan available (₹72,000/month for 2 months)",
     instructor: "Tara Patel",
     prerequisites: "None.",
     syllabusPdf: "phoenix-skincare-fundamentals.pdf",
