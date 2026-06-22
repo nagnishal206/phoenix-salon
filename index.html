@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Phoenix Women's Salon & Training Academy | Luxury Beauty & Professional Courses</title>
+  <meta name="description" content="Welcome to Phoenix. Transform your style at our luxury women's salon or launch a successful beauty career through our certified training academy courses and cosmetology diplomas.">
+  <meta name="keywords" content="women salon, hair stylist, bridal makeup, cosmetology diploma, beauty training academy, phoenix salon, balayage, skincare certificate">
+  <meta name="author" content="Phoenix Brand">
+  
+  <!-- FontAwesome Icons & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+     GLOBAL HEADER (NAVIGATION SHELL)
+     ========================================================================== -->
+  <header class="global-header">
+    <div class="container nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#home" class="brand-logo">
+        <div class="logo-symbol">P</div>
+        <span>PHOENIX</span>
+      </a>
+
+      <!-- Navigation Menus -->
+      <nav class="nav-menus" id="nav-menus-menu">
+        <!-- Salon Dropdown -->
+        <div class="nav-dropdown">
+          <div class="dropdown-trigger" id="salon-dropdown-trigger">
+            Salon <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="dropdown-menu">
+            <a href="#services" class="dropdown-item">Services & Menu</a>
+            <a href="#team" class="dropdown-item">Our Stylists</a>
+            <a href="#gallery" class="dropdown-item">Lookbook Gallery</a>
+          </div>
+        </div>
+
+        <!-- Academy Dropdown -->
+        <div class="nav-dropdown">
+          <div class="dropdown-trigger" id="academy-dropdown-trigger">
+            Academy <i class="fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="dropdown-menu">
+            <a href="#academy" class="dropdown-item">Course Catalog</a>
+            <a href="#admissions" class="dropdown-item">Admissions</a>
+            <a href="#admissions" class="dropdown-item">FAQs</a>
+          </div>
+        </div>
+
+        <!-- Static About & Contact Links (Shared) -->
+        <a href="#about" class="dropdown-trigger">About Us</a>
+        <a href="#contact" class="dropdown-trigger">Contact</a>
+      </nav>
+
+      <!-- Action CTAs -->
+      <div class="nav-ctas">
+        <button class="btn btn-salon" id="cta-book-salon">Book Salon</button>
+        <button class="btn btn-academy" id="cta-apply-academy">Apply Academy</button>
+        <!-- Mobile Menu Hamburguer -->
+        <div class="menu-toggle" id="menu-toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+     DYNAMIC VIEW MOUNTPOINT
+     ========================================================================== -->
+  <main id="app-root" style="opacity: 1; transition: opacity 0.3s ease; padding-top: 90px; min-height: calc(100vh - 90px);">
+    <!-- Javascript router mounts templates here -->
+  </main>
+
+  <!-- ==========================================================================
+     GLOBAL FOOTER
+     ========================================================================== -->
+  <footer class="global-footer">
+    <div class="container">
+      <div class="footer-top">
+        
+        <!-- Column 1: Brand & Socials -->
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo" style="margin-bottom: 1rem; display: inline-flex; color: white;">
+            <div class="logo-symbol">P</div>
+            <span>PHOENIX</span>
+          </a>
+          <p style="margin-bottom: 1.5rem; max-width: 320px;">
+            A premier destination for self-care and professional cosmetology training. Redefining style and educating the future pioneers of beauty.
+          </p>
+          <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem; color: white;">Follow Our Work</h4>
+          <div class="footer-social-icons">
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: Logistics & Contact -->
+        <div class="footer-column">
+          <h4>Get In Touch</h4>
+          <ul style="display: flex; flex-direction: column; gap: 0.8rem;">
+            <li><i class="fa-solid fa-phone" style="margin-right: 0.5rem; color: var(--salon-primary);"></i> +1 (555) 746-3649</li>
+            <li><i class="fa-solid fa-envelope" style="margin-right: 0.5rem; color: var(--salon-primary);"></i> salon@phoenixsalon.com</li>
+            <li><i class="fa-solid fa-envelope" style="margin-right: 0.5rem; color: var(--academy-primary);"></i> academy@phoenixsalon.com</li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Differing Business Hours -->
+        <div class="footer-column">
+          <h4>Business Hours</h4>
+          <ul style="display: flex; flex-direction: column; gap: 0.8rem;">
+            <li>
+              <strong style="color: white; display: block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em;">Salon Floor</strong>
+              Mon - Sat: 9:00 AM - 7:00 PM<br>
+              Sun: 10:00 AM - 5:00 PM
+            </li>
+            <li>
+              <strong style="color: white; display: block; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em;">Training Academy</strong>
+              Mon - Fri: 8:00 AM - 4:00 PM<br>
+              Sat - Sun: Closed (Except Masterclasses)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Physical Address & Map -->
+        <div class="footer-column">
+          <h4>Our Location</h4>
+          <p style="margin-bottom: 1rem;"><i class="fa-solid fa-location-dot" style="color: var(--salon-primary); margin-right: 0.5rem;"></i> 742 Beauty Blvd, Suite 100, Beverly Hills, CA 90210</p>
+          <div class="footer-map-embed">
+            <!-- Simulated premium map representation using iframe style or actual static embed -->
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.764956795493!2d-118.40306168478235!3d34.06915158060155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc0bc24cb1c3%3A0xe5433d7b43346f04!2sRodeo%20Dr%2C%20Beverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Legal Links / Rights -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Phoenix Brand. All rights reserved. Built with excellence.</p>
+        <div class="footer-legal-links">
+          <a href="#about">Privacy Policy</a>
+          <a href="#about">Terms of Service</a>
+          <a href="#about">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+     FLOATING ACTION BUTTONS (FAB)
+     ========================================================================== -->
+  <div class="fab-container">
+    <!-- WhatsApp Floating Action -->
+    <a href="https://wa.me/15557463649?text=Hello%20Phoenix%20Salon!%20I'd%20like%20to%20learn%20more." target="_blank" rel="noopener" class="fab-btn fab-whatsapp" id="fab-whatsapp-btn" aria-label="Chat with us on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!-- Quick Booking / Schedule trigger -->
+    <button class="fab-btn fab-booking" id="fab-booking-btn" aria-label="Open Booking Portal" title="Quick Booking">
+      <i class="fa-solid fa-calendar-days"></i>
+    </button>
+  </div>
+
+  <!-- ==========================================================================
+     MODAL OVERLAYS (BOOKING, ENROLLMENT)
+     ========================================================================== -->
+
+  <!-- 1. SALON BOOKING MODAL -->
+  <div class="modal-overlay-backdrop" id="booking-modal-overlay">
+    <div class="modal-window-frame glass-panel">
+      <div class="modal-content-box" style="background-color: var(--salon-bg); color: var(--salon-text);">
+        <button class="modal-close-trigger" id="booking-modal-close" aria-label="Close Modal">&times;</button>
+        <div class="modal-header-text">
+          <h2 style="color: var(--salon-primary);">Reserve Your Style Session</h2>
+          <p>Indulge in a premium salon treatment tailored specifically to you.</p>
+        </div>
+        <form id="salon-booking-form">
+          <div class="form-group-grid">
+            <div class="form-field-half">
+              <label for="booking-name">Full Name</label>
+              <input type="text" id="booking-name" required placeholder="Elena Rostova">
+            </div>
+            <div class="form-field-half">
+              <label for="booking-phone">Phone Number</label>
+              <input type="tel" id="booking-phone" required placeholder="+1 (555) 000-0000">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="booking-service">Select Service</label>
+            <select id="booking-service" required>
+              <option value="">-- Choose a Service --</option>
+              <optgroup label="Haircut & Styling">
+                <option value="hair-cut-signature">Signature Cut & Style ($85)</option>
+                <option value="hair-blowout">Luxury Blowout & Style ($50)</option>
+                <option value="hair-deep-conditioning">Keratin Intensive Treatment ($120)</option>
+              </optgroup>
+              <optgroup label="Color & Highlights">
+                <option value="color-balayage">Phoenix Signature Balayage ($220)</option>
+                <option value="color-full-highlight">Full Dimensional Highlights ($180)</option>
+                <option value="color-root-touchup">Root Retouch & Gloss ($95)</option>
+              </optgroup>
+              <optgroup label="Skin & Facials">
+                <option value="skin-glow-facial">Glow & Radiance Facial ($110)</option>
+                <option value="skin-hydrafacial">Advanced Hydro-Dermabrasion ($160)</option>
+                <option value="skin-chemical-peel">Phoenix Renewal Peel ($130)</option>
+              </optgroup>
+              <optgroup label="Bridal Packages">
+                <option value="bridal-makeup-trial">Bridal Makeup & Hair Consultation ($150)</option>
+                <option value="bridal-makeup-day">Ultimate Wedding Day Bridal Package ($350)</option>
+                <option value="bridal-bridesmaids">Bridesmaid Glam (Hair & Makeup) ($180)</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-group-grid">
+            <div class="form-field-half">
+              <label for="booking-date">Preferred Date</label>
+              <input type="date" id="booking-date" required>
+            </div>
+            <div class="form-field-half">
+              <label for="booking-time">Preferred Time</label>
+              <input type="time" id="booking-time" required>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-salon" style="width: 100%; margin-top: 1rem;">Confirm Salon Reservation</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. ACADEMY ENROLLMENT APPLICATION MODAL -->
+  <div class="modal-overlay-backdrop" id="application-modal-overlay">
+    <div class="modal-window-frame glass-panel">
+      <div class="modal-content-box" style="background-color: var(--academy-bg); color: var(--academy-text);">
+        <button class="modal-close-trigger" id="application-modal-close" aria-label="Close Modal">&times;</button>
+        <div class="modal-header-text">
+          <h2 style="color: var(--academy-primary);">Apply for Academy Admissions</h2>
+          <p>Take the first step towards launching your professional career in beauty.</p>
+        </div>
+        <form id="academy-application-form">
+          <div class="form-field">
+            <label for="app-name">Full Name</label>
+            <input type="text" id="app-name" required placeholder="Jane Doe">
+          </div>
+          <div class="form-group-grid">
+            <div class="form-field-half">
+              <label for="app-email">Email Address</label>
+              <input type="email" id="app-email" required placeholder="jane@example.com">
+            </div>
+            <div class="form-field-half">
+              <label for="app-phone">Phone Number</label>
+              <input type="tel" id="app-phone" required placeholder="+1 (555) 000-0000">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="app-course">Select Program of Interest</label>
+            <select id="app-course" required>
+              <option value="">-- Choose a Program --</option>
+              <option value="course-cosmetology-diploma">Professional Cosmetology Diploma (6 Months)</option>
+              <option value="course-bridal-makeup">Bridal Makeup Masterclass (4 Weeks)</option>
+              <option value="course-balayage-painting">Balayage & Blonding Masterclass (2 Days)</option>
+              <option value="course-skincare-fundamentals">Skincare & Esthetics Certificate (8 Weeks)</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="app-notes">Brief Statement (Why Beauty?)</label>
+            <textarea id="app-notes" rows="3" placeholder="Tell us about your career dreams and experience..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-academy" style="width: 100%; margin-top: 1rem;">Submit Application</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+     SUCCESS TOAST NOTIFICATION
+     ========================================================================== -->
+  <div class="notification-bubble" id="success-notification-bubble">
+    <i class="fa-solid fa-circle-check" style="font-size: 1.5rem;"></i>
+    <div class="notification-message-text" id="success-notification-text">Action completed successfully!</div>
+  </div>
+
+  <!-- Main JavaScript Module -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
