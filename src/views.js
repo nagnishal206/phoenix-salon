@@ -161,7 +161,7 @@ function compileHomeView() {
     <section class="section-padding container">
       <div class="text-center" style="max-width: 600px; margin: 0 auto 3rem;">
         <h2 style="font-size: 2.5rem; margin-bottom: 0.8rem;">Follow Our Instagram</h2>
-        <p style="opacity: 0.8;">Stay updated with daily salon transformations, student success stories, and beauty tips <a href="https://instagram.com" target="_blank" rel="noopener" style="color: var(--salon-primary); font-weight: 500;">@phoenix_salon_academy</a></p>
+        <p style="opacity: 0.8;">Stay updated with daily salon transformations, student success stories, and beauty tips <a href="https://www.instagram.com/phoenix_womens_salon_atp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" style="color: var(--salon-primary); font-weight: 500;">@phoenix_womens_salon_atp</a></p>
       </div>
 
       <div class="instagram-grid">
