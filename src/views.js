@@ -269,7 +269,7 @@ function compileAboutView() {
         <div class="about-text">
           <h2>Our World-Class Facilities</h2>
           <p>
-            We believe that environment shapes education. That's why our custom-built facility in Beverly Hills features two dedicated wings:
+            We believe that environment shapes education. That's why our custom-built facility in Anantapur features two dedicated wings:
           </p>
           <p>
             <strong>The Salon Wing:</strong> A sleek, modern commercial salon floor equipped with premium styling chairs, customized shadowless Ring Lighting, fully stocked organic color bars, and private esthetics rooms.
@@ -317,7 +317,7 @@ function compileContactView() {
               </div>
               <div class="form-field-half">
                 <label for="inquiry-phone">Phone Number</label>
-                <input type="tel" id="inquiry-phone" required placeholder="+1 (555) 000-0000">
+                <input type="tel" id="inquiry-phone" required placeholder="+91 95024-99079">
               </div>
             </div>
 
@@ -341,9 +341,9 @@ function compileContactView() {
           <!-- Directions and Transit -->
           <div class="logistics-card">
             <h3>Our Location</h3>
-            <p><strong>Address:</strong> 742 Beauty Blvd, Suite 100, Beverly Hills, CA 90210</p>
-            <p style="margin-top: 1rem;"><strong>Parking & Valet:</strong> We offer complimentary secure valet parking at the rear of the building. Street parking is also available on Beauty Blvd.</p>
-            <p style="margin-top: 1rem;"><strong>Public Transit:</strong> Take Metro Line 20/720 to the Wilshire/Beverly Dr stop. The salon is a brief 3-minute walk north.</p>
+            <p><strong>Address:</strong> Phoenix womens salon and training center, Hfcigovyxig Oi Ucig, Anantapur, Andhra Pradesh 515004</p>
+            <p style="margin-top: 1rem;"><strong>Parking:</strong> Parking facilities are available near the center. Street parking is also available nearby.</p>
+            <p style="margin-top: 1rem;"><strong>Public Transit:</strong> The salon and training center is easily accessible via local auto-rickshaws and transit buses in Anantapur.</p>
           </div>
 
           <!-- Differing Hours Box -->
@@ -366,7 +366,7 @@ function compileContactView() {
           <!-- Styled Maps Widget -->
           <div class="map-wrapper-large">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.764956795493!2d-118.40306168478235!3d34.06915158060155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc0bc24cb1c3%3A0xe5433d7b43346f04!2sRodeo%20Dr%2C%20Beverly%20Hills%2C%20CA!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61845.54911477759!2d77.56846153724813!3d14.665569429402685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb14ac43bf182fb%3A0x6b449175402de33!2sAnantapur%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style="border:0;" 
